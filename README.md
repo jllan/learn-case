@@ -13,3 +13,6 @@
 
 - binary_tree
 二叉树的生成及遍历
+
+- sqrt_dichotomy
+用二分法求平方根
