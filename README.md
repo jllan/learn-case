@@ -1,4 +1,4 @@
-# learn-case
+# 仓库内容
 
 该仓库主要用来记录一些小程序，算法，面试题等
 
@@ -11,8 +11,8 @@
 - markov_text_generator
 垃圾文本生成器，利用马尔科夫模型来生成一段垃圾文本
 
-- search_loop_words
-查找循环词，如picture, turepic这样的
+- gwd
+gwd的笔试题
 
-- sqrt_dichotomy
-用二分法求平方根
+- quizzes
+一些面试算法题

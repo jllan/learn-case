@@ -33,7 +33,7 @@ def read_data():
     return words
 
 
-def list_to_dict(list):
+def list_to_dict(words):
     d_words = {}
     for i in words:
         ws = d_words.get(len(i), [])
