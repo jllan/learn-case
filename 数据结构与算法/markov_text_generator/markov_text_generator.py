@@ -1,3 +1,5 @@
+# 垃圾文本生成器，利用马尔科夫模型来生成一段垃圾文本
+
 import random
 
 class MarkovTextGenerator:

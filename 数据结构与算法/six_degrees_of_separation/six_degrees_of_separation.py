@@ -1,3 +1,5 @@
+# 六度分割理论的验证，计算百度百科任意两个词条之间的路径
+
 import requests
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
