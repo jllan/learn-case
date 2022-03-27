@@ -22,11 +22,13 @@ import pandas as pd
 
 def fun():
     data = pd.read_table('data.txt', names=['key', 'value'], index_col='key')
+    print(data)
     results = []
     index_unique = data.index.unique()
     print(index_unique)
     for inx in index_unique:
-        temp = pd.value_counts(data.ix[inx]['value'])
+        temp = pd.value_counts(data.loc[inx]['value'])
+        print(temp)
         for value, count in temp.items():
             result = {}
             result[inx] = (value, count)
